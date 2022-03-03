@@ -20,7 +20,7 @@ public void setup()
 	driver=Browser.launchBrowser();
 	Browser.openURL();
 }
-
+//close the browser
 	@AfterClass(groups="sanity")
 public void teardown()
 {
