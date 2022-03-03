@@ -3,13 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="testscripts.TC001">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyLogin"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testscripts.TC001 -->
       <class name="testscripts.TC002">
         <methods>
           <include name="verifyHRMLogin"/>
@@ -18,6 +11,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testscripts.TC002 -->
+      <class name="testscripts.TC001">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testscripts.TC001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
