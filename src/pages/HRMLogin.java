@@ -15,7 +15,7 @@ public class HRMLogin {
 	{
 	this.driver=driver;	
 	}
-	//Locators
+	//Locators login page hi
 	private By username=By.id("txtUsername");
 	private By password=By.id("txtPassword");
 	private By login=By.id("btnLogin");
